@@ -1,14 +1,14 @@
 // Destructuring assignment for animal sounds
-const animalSounds = ['moo', 'neigh', 'baa', 'oink', 'cluck'];
+const animalSounds = ['cow', 'horse', 'sheep', 'pig', 'chicken'];
 const [moo, neigh, baa, oink, cluck] = animalSounds;
 
 // Destructuring assignment for traditional animal names
-const traditionalAnimalNames = 'cow, horse, sheep, pig';
-const [bessie, horse, dolly, pig] = traditionalAnimalNames.split(', ');
+const traditionalAnimalNames = 'cow, chicken, sheep, pig';
+const [bessie, little, dolly, babe] = traditionalAnimalNames.split(', ');
 
 // Destructuring assignment for traditional animal colors
-const traditionalAnimalColors = 'brown, black, white';
-const [brown, black, white] = traditionalAnimalColors.split(', ');
+const traditionalAnimalColors = 'cow, sheep, pig';
+const [blackAndWhite, black, pink] = traditionalAnimalColors.split(', ');
 
 // Destructuring assignment for rainbow colors using color names
 const rainbowColors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
